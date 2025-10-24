@@ -42,6 +42,7 @@ npm run dev
 
 4. Open [http://localhost:3000](http://localhost:3000) to view the RSVP form
 5. Visit [http://localhost:3000/admin](http://localhost:3000/admin) to view the admin panel
+6. Visit [http://localhost:3000/setup](http://localhost:3000/setup) to initialize the database
 
 ## Database Setup
 

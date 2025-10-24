@@ -13,17 +13,19 @@ export default function Home() {
               <Heart className="w-10 h-10 text-rose-600" />
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
-              Sarah & Michael
+              Paul & Lovely
             </h1>
             <p className="text-xl text-gray-600 mb-2">are getting married!</p>
             <div className="flex items-center justify-center space-x-8 text-gray-600 mt-8">
               <div className="flex items-center">
                 <Calendar className="w-5 h-5 mr-2" />
-                <span>June 15, 2024</span>
+                <span>December 3, 2025</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 mr-2" />
-                <span>Garden Venue, Manila</span>
+                <span>
+                  Bamboo Pavillion Brgy. San Miguel, Manolo Fortich, Bukidnon
+                </span>
               </div>
             </div>
           </div>
@@ -40,7 +42,7 @@ export default function Home() {
           </p>
           <div className="flex items-center justify-center mt-4 text-sm text-gray-500">
             <Clock className="w-4 h-4 mr-2" />
-            <span>Please respond by December 15th, 2024</span>
+            <span>Please respond by November 15th, 2025</span>
           </div>
         </div>
 
@@ -52,7 +54,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-600">Can't wait to celebrate with you! 💕</p>
           <p className="text-sm text-gray-500 mt-2">
-            Questions? Contact us at sarah.michael.wedding@gmail.com
+            Questions? Contact us at paul.lovely.wedding@gmail.com
           </p>
         </div>
       </div>

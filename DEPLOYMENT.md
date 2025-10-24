@@ -30,6 +30,14 @@
 
 ### Step 5: Set Up Database Schema
 
+**Option A: Automatic Setup (Recommended)**
+
+1. After deployment, visit `https://your-app-name.vercel.app/setup`
+2. Click "Initialize Database" button
+3. The database tables will be created automatically
+
+**Option B: Manual Setup**
+
 1. In your Vercel dashboard, go to your database
 2. Click on the "Query" tab
 3. Run the SQL from `schema.sql` to create the tables:

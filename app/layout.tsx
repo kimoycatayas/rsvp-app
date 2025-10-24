@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sarah & Michael's Wedding RSVP",
+  title: "Paul & Lovely's Wedding RSVP",
   description:
-    "Join us in celebrating our special day! Please RSVP for Sarah & Michael's wedding.",
+    "Join us in celebrating our special day! Please RSVP for Paul & Lovely's wedding.",
 };
 
 export default function RootLayout({
