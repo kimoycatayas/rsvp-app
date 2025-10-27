@@ -118,7 +118,7 @@ export default function RSVPForm() {
             value={formData.name}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-rose-500 focus:border-transparent"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-rose-500 focus:border-transparent text-gray-900"
             placeholder="Enter your full name"
           />
         </div>
@@ -137,7 +137,7 @@ export default function RSVPForm() {
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-rose-500 focus:border-transparent"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-rose-500 focus:border-transparent text-gray-900"
             placeholder="Enter your email"
           />
         </div>
@@ -200,7 +200,7 @@ export default function RSVPForm() {
               name="guest_count"
               value={formData.guest_count}
               onChange={handleChange}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-rose-500 focus:border-transparent"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-rose-500 focus:border-transparent text-gray-900"
             >
               {[1, 2, 3, 4, 5, 6].map((num) => (
                 <option key={num} value={num}>
@@ -225,7 +225,7 @@ export default function RSVPForm() {
             value={formData.dietary_restrictions}
             onChange={handleChange}
             rows={3}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-rose-500 focus:border-transparent"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-rose-500 focus:border-transparent text-gray-900"
             placeholder="Any dietary restrictions or allergies?"
           />
         </div>
@@ -244,7 +244,7 @@ export default function RSVPForm() {
             value={formData.message}
             onChange={handleChange}
             rows={3}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-rose-500 focus:border-transparent"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-rose-500 focus:border-transparent text-gray-900"
             placeholder="Any special message for the couple?"
           />
         </div>
